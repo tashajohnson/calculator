@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript Calculator</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  </head>
+  <body>
+    <div class="main">
+      <input placeholder="Enter first number" id="num1"/>
+      <input placeholder="Enter second number" id="num2"/>
+      <div class="buttons">
+        <button onClick="addNumbers()">+</button>
+        <button onClick="subNumbers()">-</button>
+        <button onClick="multNumbers()">x</button>
+        <button onClick="divNumbers()">/</button>
+      </div>
+      <div id="screen"></div>
+      <button id="clear" onClick="clearField()">Clear</button>
+      <ul id="history">
+        <p>History:</p>
+      </ul>
+    </div>
+    <script type="text/javascript" src="javascript/jscript.js"></script>
+  </body>
+</html>
